@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 5s linear infinite;
+}
+
+#contact {
+  background-image: url("./assets/bg_portfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}

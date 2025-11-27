@@ -5,8 +5,6 @@ import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Check from "./components/check";
-
 function App() {
   return (
     <>
